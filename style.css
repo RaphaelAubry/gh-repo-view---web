@@ -1,0 +1,62 @@
+body {
+ font-family: 'Kalam', cursive;
+ font-weight: 300;
+ background-image: url('images/3840.jpg');
+ position: center;
+ background-size: cover;
+ color: rgb(5, 48, 66)
+}
+
+.container {
+background-color: rgba(226, 195, 161, 0.1);
+width: 300px;
+margin: 0 auto 15px;
+text-align: center;
+border-radius: 8px;
+}
+
+img {
+  border-radius: 50%;
+  height:150px;
+  width:150px;
+  border:solid 2px rgb(5, 48, 66);
+  box-shadow: 3px 3px 5px rgb(5, 48, 66)
+}
+
+
+a {
+  text-decoration: none;
+  color: rgb(5, 48, 66)
+
+}
+
+.button {
+  border: solid 2px rgb(5, 48, 66);
+  border-radius: 8px;
+  padding: 5px;
+  background-color: rgb(5, 48, 66);
+  color:rgb(194, 144, 119);
+  font-weight: bold;
+}
+
+a:hover {
+  background-color: rgb(194, 144, 119);
+  color:rgb(5, 48, 66);
+}
+
+
+ul {
+padding-left: 0px;
+list-style-type: none;
+display: inline-flex;
+text-align: center;
+}
+li {
+padding-left: 25px;
+padding-right: 25px;
+font-size: 50px;
+}
+
+h1 {
+  font-size:40px;
+}
